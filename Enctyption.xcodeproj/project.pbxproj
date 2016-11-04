@@ -14,6 +14,8 @@
 		9D2B85411DCC3DDC00609834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B853F1DCC3DDC00609834 /* LaunchScreen.storyboard */; };
 		9D2B854C1DCC3DDC00609834 /* EnctyptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B854B1DCC3DDC00609834 /* EnctyptionTests.swift */; };
 		9D2B85571DCC3DDC00609834 /* EnctyptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B85561DCC3DDC00609834 /* EnctyptionUITests.swift */; };
+		9D2B85761DCC402600609834 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2B856D1DCC3FC900609834 /* RNCryptor.framework */; };
+		9D2B85771DCC402600609834 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2B85711DCC3FC900609834 /* RNCryptor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,41 @@
 			remoteGlobalIDString = 9D2B85321DCC3DDC00609834;
 			remoteInfo = Enctyption;
 		};
+		9D2B856C1DCC3FC900609834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB627FCE1B2B7A1700C3A579;
+			remoteInfo = RNCryptor;
+		};
+		9D2B856E1DCC3FC900609834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB627FD81B2B7A1800C3A579;
+			remoteInfo = RNCryptorTests;
+		};
+		9D2B85701DCC3FC900609834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FBCF48D41B43286D00DCFB19;
+			remoteInfo = "RNCryptor-OSX";
+		};
+		9D2B85721DCC3FC900609834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FBCF48DD1B43286D00DCFB19;
+			remoteInfo = "RNCryptor-OSXTests";
+		};
+		9D2B85741DCC3FC900609834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB7F2FBF1D17438400A6283E;
+			remoteInfo = RNCryptorPerfTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +84,7 @@
 		9D2B85521DCC3DDC00609834 /* EnctyptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnctyptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2B85561DCC3DDC00609834 /* EnctyptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnctyptionUITests.swift; sourceTree = "<group>"; };
 		9D2B85581DCC3DDC00609834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCryptor.xcodeproj; path = "RNCryptor-RNCryptor-5.0.1/RNCryptor.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2B85761DCC402600609834 /* RNCryptor.framework in Frameworks */,
+				9D2B85771DCC402600609834 /* RNCryptor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +117,7 @@
 		9D2B852A1DCC3DDC00609834 = {
 			isa = PBXGroup;
 			children = (
+				9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */,
 				9D2B85351DCC3DDC00609834 /* Enctyption */,
 				9D2B854A1DCC3DDC00609834 /* EnctyptionTests */,
 				9D2B85551DCC3DDC00609834 /* EnctyptionUITests */,
@@ -123,6 +164,18 @@
 				9D2B85581DCC3DDC00609834 /* Info.plist */,
 			);
 			path = EnctyptionUITests;
+			sourceTree = "<group>";
+		};
+		9D2B85651DCC3FC900609834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B856D1DCC3FC900609834 /* RNCryptor.framework */,
+				9D2B856F1DCC3FC900609834 /* RNCryptorTests.xctest */,
+				9D2B85711DCC3FC900609834 /* RNCryptor.framework */,
+				9D2B85731DCC3FC900609834 /* RNCryptor-OSXTests.xctest */,
+				9D2B85751DCC3FC900609834 /* RNCryptorPerfTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +271,12 @@
 			mainGroup = 9D2B852A1DCC3DDC00609834;
 			productRefGroup = 9D2B85341DCC3DDC00609834 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9D2B85651DCC3FC900609834 /* Products */;
+					ProjectRef = 9D2B85641DCC3FC900609834 /* RNCryptor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9D2B85321DCC3DDC00609834 /* Enctyption */,
@@ -226,6 +285,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9D2B856D1DCC3FC900609834 /* RNCryptor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RNCryptor.framework;
+			remoteRef = 9D2B856C1DCC3FC900609834 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D2B856F1DCC3FC900609834 /* RNCryptorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RNCryptorTests.xctest;
+			remoteRef = 9D2B856E1DCC3FC900609834 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D2B85711DCC3FC900609834 /* RNCryptor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RNCryptor.framework;
+			remoteRef = 9D2B85701DCC3FC900609834 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D2B85731DCC3FC900609834 /* RNCryptor-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "RNCryptor-OSXTests.xctest";
+			remoteRef = 9D2B85721DCC3FC900609834 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D2B85751DCC3FC900609834 /* RNCryptorPerfTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RNCryptorPerfTests.xctest;
+			remoteRef = 9D2B85741DCC3FC900609834 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9D2B85311DCC3DDC00609834 /* Resources */ = {
@@ -505,6 +602,7 @@
 				9D2B855D1DCC3DDC00609834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D2B855E1DCC3DDC00609834 /* Build configuration list for PBXNativeTarget "EnctyptionTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +611,7 @@
 				9D2B85601DCC3DDC00609834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D2B85611DCC3DDC00609834 /* Build configuration list for PBXNativeTarget "EnctyptionUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +620,7 @@
 				9D2B85631DCC3DDC00609834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
